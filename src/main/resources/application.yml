@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+spring:
+  profiles:
+    active: dev
+
+mybatis-plus:
+  type-enums-package: com.wuxb.blog.entity.enums
