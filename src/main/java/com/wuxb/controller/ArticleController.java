@@ -40,6 +40,11 @@ public class ArticleController {
     @Autowired
     private ArticleContentMapper articleContentMapper;
 
+    /**
+     * frontend init. return the article type
+     *
+     * @return article type
+     */
     @GetMapping("/articleType")
     public List<ArticleTypeEntity> articleType() {
         return articleMapper.getArticleTypes();

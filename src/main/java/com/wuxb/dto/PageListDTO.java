@@ -10,6 +10,13 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * 通用带分页信息的包装返回
+ *
+ * @param <E> 内容的返回类型
+ * @author liwenyan
+ * @since 2023/7/29
+ */
 @Data
 public class PageListDTO<E> {
 
